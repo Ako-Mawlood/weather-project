@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+	padding:0;
+	margin: 0;
+    box-sizing:border-box;
+    letter-spacing: 0.5px
+}
+body{
+	background-image:url(https://images.unsplash.com/photo-1572162522099-7a0c28d7691b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    height:100vh;
+    font-family:'lato',sans-serif;
+    transition:2s;
+   overflow:none;
+}
+.p{
+	position:absolute;
+	top:12px;
+	left:12px;
+    font-size:20px;
+	color:darkorange;
+	background-color:;
+	border:solid 3px orange;
+	padding:3px;
+	border-radius: 3px;
+}
+.first-section{
+	color:#f3f3f3;
+	position:absolute;
+	top:70%;
+	left:7%;
+	display:flex;
+	justify-content:space-around;
+	width: 45%; 
+transition:2s;
+}
+.temp{
+	font-size:90px;
+	color:white;
+}
+.city{
+	font-size:70px;
+}
+.info{
+	display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.time-day-date,.weather
+{
+	font-size:20px;
+	font-weight: bold;
+}
+.icon-weather{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.icon{
+width:70px;
+height:70px;
+}
+.section2{
+	position:absolute;
+	right:0;
+	background:rgba(110,110,110,0.25);
+	width:30%;
+	height:100%;
+	backdrop-filter:blur(15px);
+	display:flex;
+	padding:30px 50px ;
+	flex-direction:column;
+	align-items:flex-start;
+}
+.input-btn{
+    display:flex;
+}
+.btn{
+	width:73px;
+	height:73px;
+	background-color:darkorange;
+	position:absolute;
+	right:0;
+	top:0; 
+	border: none;
+	cursor:pointer;
+}
+.btn:active{
+	background-color:orange;
+}
+.input{
+	background-color:transparent;
+	padding:10px 0px;
+	width:90%px;
+    color:white;
+	border:none;
+	border-bottom:1px lightgrey solid;
+	outline: none;
+	font-size:20px;
+	font-family:sans-serif;
+}
+::placeholder{
+	color:lightgrey;
+}
+.common-cities,.weather-details{
+	padding:40px 0;
+	border-bottom:2px lightgrey solid;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+}
+.common-city,.weather-details h5{
+	font-family:sans-serif;
+    font-size:17px;
+    width:80PX;
+    color:lightgrey;
+    margin:15px 0 ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.common-city:hover{
+	font-weight:bold;
+	color:#ffff;
+}
+.weather-details h4{ 
+	padding-bottom: 30px;
+	color:white;
+}
+.detail{
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+}
+.detail span{
+	color:white;
+	margin-top:15px;
+}

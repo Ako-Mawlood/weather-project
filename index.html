@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"  /> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<i class="fa-solid fa-temperature-down fa-8x p "> Weather</i>
+<section class="first-section">
+
+	<h1 class="temp">16°</h1>
+
+	<div class="info">
+		<h2 class="city">London</h2>
+		<div class="time-day-date">
+		<span class="date">06:09 -</span>
+	   </div>
+	</div>
+
+	<div class="icon-weather">
+		<img class="icon"src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="icon">
+		<span class='weather'>Cloudy</span>
+	</div>
+
+</section>
+
+<section class="section2">
+
+	<div class="input-btn">
+		<input class="input" type="text"  placeholder="Another Loation">
+		<button id="btn"class="btn"><i class="fa-solid fa-magnifying-glass-location fa-2x"></i></button>
+	</div>
+
+	<div class="common-cities">
+		<span class="common-city">Manchester</span>
+		<span class="common-city">New York</span>
+		<span class="common-city">Duhok</span>
+		<span class="common-city">Erbil</span>
+	</div>
+
+	<div class="weather-details">
+
+		<h4>Weather details</h4>
+
+          <div class="detail">
+          	<h5>Temp/F</h5>
+          	<span class="cloudy-result">86%</span>
+          </div>
+
+          <div class="detail">
+          	<h5>Humidity</h5>
+          	<span class="humidity-result">74%</span>
+          </div>
+
+       <div class="detail">
+          	<h5>Wind</h5>
+          	<span class="wind-result">92%</span>
+          </div>
+
+	</div>
+</section>
+<script src="app.js"></script>
+</body>
+</html> 
